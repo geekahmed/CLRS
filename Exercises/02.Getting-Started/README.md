@@ -1,3 +1,4 @@
+
 ## Chapter 2. Getting Started
 # 2.1: Insertion Sort
 ### 2.1.1:
@@ -54,4 +55,37 @@ Iteration 5: [26, 31, 41, 41, 58, 59]
 		    carry = (A[i] + B[i] + carry) // 2
 	    C[i] = carry
 	    return  C
+
+### 2.2.1:
+Express the function (((n^3)/1000) - 100 (n ^ 2) - 100n + 3) in terms of ‚ theta-notation.
+
+`Θ(n^3)`.
+
+### 2.2.2:
+**Selection Sort Pseudocode**
+
+    SELECTION_SORT(A):
+    	n = A.length
+    	for i = 1 to n - 1
+    		min_index = i
+    		for j = i + 1 to n
+    			if A[min_index] > A[j]
+    				min_index = j
+    		temp = A[i]
+    		A[i] = A[min_index]
+    		A[min_index] = temp
+
+**Loop invariant**
+At the start the subarray A[1..i-1] contains the smallest i - 1 sorted elements.
+
+After n - 1 iterations the subarray A[1...n-1] consists of the smallest i - 1 elements sorted. Therefore, A[n] is already the largest number.
+
+Worst case running time: `Θ(n^2)`.
+Best case running time: `Θ(n^2)`.
+
+### 2.2.3:
+If the element is present in the sequence, half of the elements are likely to be checked before it is found in the average case. In the worst case, all of them will be checked. That is, n / 2 checks for the average case and n for the worst case. Both of them are Θ(n).
+
+### 2.2.4:
+By adding special cases in order to match quickly before entering the main algorithms.
 
