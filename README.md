@@ -17,7 +17,7 @@ This book is balancing between both views. It gives you the needed theory to und
 
 <!-- TOC depthFrom:1 depthTo:6 withLinks:1 updateOnSave:1 orderedList:0 -->
 ## Table of Contents
-- [Chapter 1. The Role of Algorithms in Computing](#)
-- [Chapter 2. Gertting Started](#)
+- [Chapter 1. The Role of Algorithms in Computing](https://github.com/geekahmed/CLRS/tree/main/01.%20The%20Role%20of%20Algorithms%20in%20Computing)
+- [Chapter 2. Gertting Started](https://github.com/geekahmed/CLRS/tree/main/02.%20Getting%20Started)
 - [Chapter 3. Growth of Functions](#)
 <!-- /TOC -->
