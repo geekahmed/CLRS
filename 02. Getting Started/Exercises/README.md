@@ -1,6 +1,5 @@
-
-## Chapter 2. Getting Started
-# 2.1: Insertion Sort
+# Chapter 2. Getting Started
+## 2.1: Insertion Sort
 ### 2.1.1:
 Iteration 1: [31, 41, 59, 26, 41, 58]
 Iteration 2: [31, 41, 59, 26, 41, 58]
@@ -55,12 +54,10 @@ Iteration 5: [26, 31, 41, 41, 58, 59]
 		    carry = (A[i] + B[i] + carry) // 2
 	    C[i] = carry
 	    return  C
-
+## 2.2.: Analyzing algorithms
 ### 2.2.1:
-Express the function (((n^3)/1000) - 100 (n ^ 2) - 100n + 3) in terms of ‚ theta-notation.
-
+Express the function (((n^3)/1000) - 100 (n ^ 2) - 100n + 3) in terms of‚ theta-notation.
 `Θ(n^3)`.
-
 ### 2.2.2:
 **Selection Sort Pseudocode**
 
@@ -77,15 +74,24 @@ Express the function (((n^3)/1000) - 100 (n ^ 2) - 100n + 3) in terms of ‚ the
 
 **Loop invariant**
 At the start the subarray A[1..i-1] contains the smallest i - 1 sorted elements.
-
 After n - 1 iterations the subarray A[1...n-1] consists of the smallest i - 1 elements sorted. Therefore, A[n] is already the largest number.
-
 Worst case running time: `Θ(n^2)`.
 Best case running time: `Θ(n^2)`.
-
 ### 2.2.3:
 If the element is present in the sequence, half of the elements are likely to be checked before it is found in the average case. In the worst case, all of them will be checked. That is, n / 2 checks for the average case and n for the worst case. Both of them are Θ(n).
-
 ### 2.2.4:
 By adding special cases in order to match quickly before entering the main algorithms.
+## 2.3: Designing algorithms
+### 2.3.1:
+### 2.3.2:
+### 2.3.3:
+### 2.3.4:
+### 2.3.5:
+### 2.3.6:
+### 2.3.7:
 
+## Problems
+### 2.1. Insertion sort on small arrays in merge sort
+### 2.2. Correctness of bubblesort
+### 2.3. Correctness of Horner’s rule
+### 2.4. Inversions
